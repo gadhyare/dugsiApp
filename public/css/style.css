@@ -1,0 +1,164 @@
+body {
+  background-color: #fff !important;
+}
+* {
+  font-family: "Dubai";
+}
+.sidebar {
+  background-color: #3f4d67;
+  height: 100vh;
+  width: 270px;
+}
+.top-navbar {
+  background-color: #3f4d67 !important;
+}
+.top-navbar a {
+  color: #fff !important;
+}
+.sidebar li {
+  border-radius: 0px;
+  transition: all 1s;
+}
+
+ul.dropdown-menu {
+  border-radius: 0px;
+  background-color: #3f4d67 !important;
+  color: #fff !important;
+}
+
+.dropdown-item {
+  border-radius: 0px;
+  background-color: #3f4d67 !important;
+  color: #fff !important;
+  right: 50px !important;
+  cursor: pointer !important;
+}
+
+.dropdown-item:hover {
+  background-color: #fff !important;
+  color: #3f4d67 !important;
+}
+
+#sub-menu {
+  right: 222px !important;
+}
+.content {
+  width: 100%;
+}
+
+.table-header,
+.table-footer,
+.section-header {
+  background-color: #3f4d67 !important;
+}
+
+.dropdown-toggle::after {
+  float: left !important;
+  margin-top: 7px;
+}
+
+.title {
+  background-color: #3f4d67 !important;
+  color: #fff;
+}
+.bg-danger-dark {
+  background-color: #ac103f !important;
+}
+
+.bg-primary-dark {
+  background-color: #0960d1 !important;
+}
+
+.bg-success-dark {
+  background-color: #007965 !important;
+}
+
+.bg-gray-dark {
+  background-color: #344352 !important;
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    margin-right: -250px;
+    position: absolute;
+    min-height: 100vh;
+    z-index: 1;
+  }
+
+  .sidebar.active {
+    margin-right: 0px;
+  }
+
+  .close-btn,
+  .show-sidebar {
+    visibility: visible;
+  }
+}
+
+.exams-section .nav-link.active {
+  background: #3f4d67 !important;
+  color: #fff !important;
+}
+
+.exams-section .nav-link {
+  color: #000 !important;
+}
+
+.accordion-button {
+  text-align: end !important;
+}
+/* .accordion-button::after {
+  order:  100;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  background-color: #cccccc !important;
+  padding: 3px !important;
+} */
+
+
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}

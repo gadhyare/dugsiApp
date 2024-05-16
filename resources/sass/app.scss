@@ -1,0 +1,216 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+// $all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans);
+
+// $utilities: map-merge($utilities,
+//         ("background-color": (property: background-color,
+//                 class: bg,
+//                 values: $all-colors ),
+//         ));
+
+// $utilities: map-merge($utilities,
+//         ("background-color": (property: background-color,
+//                 class: btn,
+//                 values: $all-colors ),
+//         ));
+$sizes: 100, 50px, 80px;
+
+$s: 's';
+
+// @each $color, $value in $colors {
+//         .bg-#{$color} {
+//                 background-color: $value !important;
+//         }
+
+//         .btn-#{$color} {
+//                 background-color: $value !important;
+//         }
+
+//         .text-#{$color} {
+//                 background-color: $value !important;
+//         }
+// }
+@each $key , $value in $blues {
+    .bg-#{$key} {
+        background-color: $value !important;
+    }
+
+    .btn-#{$key} {
+        background-color: $value !important;
+    }
+
+    .text-#{$key} {
+        color: $value !important;
+    }
+
+    .border-#{$key} {
+        border-color: $value !important;
+    }
+}
+
+@each $key , $value in $indigos {
+    .bg-#{$key} {
+        background-color: $value !important;
+    }
+
+    .btn-#{$key} {
+        background-color: $value !important;
+    }
+
+    .text-#{$key} {
+        color: $value !important;
+    }
+
+    .border-#{$key} {
+        border-color: $value !important;
+    }
+}
+
+
+@each $key , $value in $purples {
+    .bg-#{$key} {
+        background-color: $value !important;
+    }
+
+    .btn-#{$key} {
+        background-color: $value !important;
+    }
+
+    .text-#{$key} {
+        color: $value !important;
+    }
+
+    .border-#{$key} {
+        border-color: $value !important;
+    }
+}
+
+@each $key , $value in $pinks {
+    .bg-#{$key} {
+        background-color: $value !important;
+    }
+
+    .btn-#{$key} {
+        background-color: $value !important;
+    }
+
+    .text-#{$key} {
+        color: $value !important;
+    }
+
+    .border-#{$key} {
+        border-color: $value !important;
+    }
+}
+
+
+@each $key , $value in $reds {
+    .bg-#{$key} {
+        background-color: $value !important;
+    }
+
+    .btn-#{$key} {
+        background-color: $value !important;
+    }
+
+    .text-#{$key} {
+        color: $value !important;
+    }
+
+    .border-#{$key} {
+        border-color: $value !important;
+    }
+}
+
+
+@each $key , $value in $oranges {
+    .bg-#{$key} {
+        background-color: $value !important;
+    }
+
+    .btn-#{$key} {
+        background-color: $value !important;
+    }
+
+    .text-#{$key} {
+        color: $value !important;
+    }
+
+    .border-#{$key} {
+        border-color: $value !important;
+    }
+}
+
+
+@each $key , $value in $yellows {
+    .bg-#{$key} {
+        background-color: $value !important;
+    }
+
+    .btn-#{$key} {
+        background-color: $value !important;
+    }
+
+    .text-#{$key} {
+        color: $value !important;
+    }
+
+    .border-#{$key} {
+        border-color: $value !important;
+    }
+}
+
+
+@each $key , $value in $greens {
+    .bg-#{$key} {
+        background-color: $value !important;
+    }
+
+    .btn-#{$key} {
+        background-color: $value !important;
+    }
+
+    .text-#{$key} {
+        color: $value !important;
+    }
+
+    .border-#{$key} {
+        border-color: $value !important;
+    }
+}
+
+
+@each $key , $value in $cyans {
+    .bg-#{$key} {
+        background-color: $value !important;
+    }
+
+    .btn-#{$key} {
+        background-color: $value !important;
+    }
+
+    .text-#{$key} {
+        color: $value !important;
+    }
+
+    .border-#{$key} {
+        border-color: $value !important;
+    }
+}
+
+
+
+@import "../../node_modules/bootstrap/scss/utilities/api";

@@ -1,0 +1,5 @@
+vendor/
+storage/
+    /app/livewire-tmp
+    /app/public 
+node_modules/
